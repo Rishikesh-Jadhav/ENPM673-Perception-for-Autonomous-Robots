@@ -48,21 +48,24 @@ The course structure is enriched with four distinct projects, each described bel
    
   8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.
 
-- **[Project Report](#)**    
+- **[Project 1 Report](#)**    
   
 ### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
 - **Learnings from Project 2**:
+- **[Project 2 Report](#)**    
  
     
 ### [Project 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  Volume Rendering and Neural Radiance Fields
 
 - **Learnings from Project 3**:
+- **[Project 3 Report](#)**    
 
 
 ### [Project 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): Point Cloud Classification and Segmentation
 
 - **Learnings from Project 4**:
+- **[Project 4 Report](#)**    
 
   
 ## Additional Resources
