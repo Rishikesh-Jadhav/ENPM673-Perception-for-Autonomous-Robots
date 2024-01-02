@@ -30,7 +30,7 @@ The course structure is enriched with four distinct projects, each described bel
 
 ### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Project1.pdf): Rendering with Pytorch3D
 
-- **Learnings from Assignment 1**:
+- **Learnings from Project 1**:
 
   1. __Rendering First Mesh:__ Acquired a basic understanding of mesh rendering using PyTorch3D.
 
@@ -47,6 +47,8 @@ The course structure is enriched with four distinct projects, each described bel
   7. __Rendering Generic 3D Representations:__ Rendered point clouds and constructed them from RGB-D images. Parametrically generated and rendered point clouds.
    
   8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.
+
+- **[Project Report](#)**    
   
 ### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
