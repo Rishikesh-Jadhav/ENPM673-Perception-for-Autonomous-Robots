@@ -28,7 +28,7 @@ The course structure is enriched with four distinct projects, each described bel
 ## 📄 Project List
 - Click [here](https://github.com/848f-3DVision) access ENPM-673 Project directly.
 
-### [Project 1](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment1): Rendering with Pytorch3D
+### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Project1.pdf): Rendering with Pytorch3D
 
 - **Learnings from Assignment 1**:
 
