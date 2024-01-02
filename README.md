@@ -26,7 +26,7 @@ These hands-on projcts experiences helped us understand practical applications, 
 The course structure is enriched with four distinct projects, each described below.
 
 ## 📄 Project List
-- Click [here](https://github.com/848f-3DVision) access ENPM-673 Project directly.
+- Click [here](https://github.com/Rishikesh-Jadhav/VelocityEstimation-OpticalFlow) access ENPM-673 Final Project .
 
 ### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Project1.pdf): Rendering with Pytorch3D
 
