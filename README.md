@@ -94,7 +94,9 @@ Number of iterations calculated using a formula involving probability values.
   
 ### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2): Camera Pose Estimation and Image Stitching
 
-- **Implementaion and Learnings from Project 2**:
+#### **[Project 2 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project2/rjadhav1_proj2.pdf)** 
+
+#### **Implementaion and Learnings from Project 2**:
 
 #### 1. Camera Pose Estimation using Homography
 
@@ -146,10 +148,7 @@ Several challenges were faced during the project:
 1. Determining Canny edge detection values.
 2. Difficulty in detecting edges without using built-in functions.
 3. Tricky aspects in finding camera rotation and translation.
-4. Challenges in stitching due to dimension mismatches and homography application.
-
-#### **[Project 2 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project2/rjadhav1_proj2.pdf)**    
- 
+4. Challenges in stitching due to dimension mismatches and homography application.   
     
 ### [Project 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  
 
