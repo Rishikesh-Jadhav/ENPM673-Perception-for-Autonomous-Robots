@@ -110,59 +110,56 @@ Utilized the least squares method to find the best-fit curve (parabola) by minim
   
 ### [Project 3](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project3/rjadhav1_proj3.pdf): Camera calibration  
 
-#### **Learnings from Project 3**:  
+#### **Implementation and Learnings from Project 3**:  
 
 1. **Camera Calibration: Mathematical Approach**
 
-##### 1.1 Pipeline
+   - **Pipeline:**
+     1. Capture checkerboard images for calibration.
+     2. Determine world coordinates of checkerboard corners and find corresponding image coordinates.
+     3. Calculate camera parameters using the P matrix.
+     4. Extract the Rotation Matrix and Translation vector from the P matrix.
+     5. Find Reprojection error for each point.
 
-Camera calibration corrects distortions and imperfections, providing accurate images. The pipeline involves:
+   -**Results:**
 
-1. Capture checkerboard images for calibration.
-2. Determine world coordinates of checkerboard corners and find corresponding image coordinates.
-3. Calculate camera parameters using the P matrix.
-4. Extract the Rotation Matrix and Translation vector from the P matrix.
-5. Find Reprojection error for each point.
-
-##### 1.2 Results
-
-1. Minimum number of matching points needed is 6 for mathematical calibration.
-2. Mathematical formulation involves decomposing the P matrix and finding intrinsic matrix K, rotation matrix R, and translation vector T.
-3. Intrinsic Matrix K:
-
-   [-6.7912331e + 01, -7.9392768e − 02, 3.3562042e + 01;
-
-   0, 6.7619034e + 01, 2.5845427e + 01;
-
-   0, 0, 4.1946620e − 02]
-
-5. Projection matrix P:
-   
-   [28.7364445 -1.75735415 -70.0687538 756.890519;
-
-   -20.1369011 65.889012 -22.2140404 213.263797;
-
-   -0.0277042391 -0.00259559759 -0.0313888009 1.00000000]
-   
-7. Rotation matrix R.
-
-   [-0.74948643 0.11452983 -0.65203758;
-
-   0.0453559 0.99149078 0.12202001;
-
-   0.66046418 0.06187859 -0.74830349]
-   
-9. Translation vector T:
-
-   [0.64862355;
-
-    0.30183152;
-
-    0.69751919;
-
-    0.04064735]
-   
-11. Reprojection errors: [0.2856, 0.9726, 1.0361, 0.4541, 0.1909, 0.3190, 0.1959, 0.3083]
+      1. Minimum number of matching points needed is 6 for mathematical calibration.
+      2. Mathematical formulation involves decomposing the P matrix and finding intrinsic matrix K, rotation matrix R, and translation vector T.
+      3. Intrinsic Matrix K:
+      
+         [-6.7912331e + 01, -7.9392768e − 02, 3.3562042e + 01;
+      
+         0, 6.7619034e + 01, 2.5845427e + 01;
+      
+         0, 0, 4.1946620e − 02]
+      
+      5. Projection matrix P:
+         
+         [28.7364445 -1.75735415 -70.0687538 756.890519;
+      
+         -20.1369011 65.889012 -22.2140404 213.263797;
+      
+         -0.0277042391 -0.00259559759 -0.0313888009 1.00000000]
+         
+      7. Rotation matrix R.
+      
+         [-0.74948643 0.11452983 -0.65203758;
+      
+         0.0453559 0.99149078 0.12202001;
+      
+         0.66046418 0.06187859 -0.74830349]
+         
+      9. Translation vector T:
+      
+         [0.64862355;
+      
+          0.30183152;
+      
+          0.69751919;
+      
+          0.04064735]
+         
+      11. Reprojection errors: [0.2856, 0.9726, 1.0361, 0.4541, 0.1909, 0.3190, 0.1959, 0.3083]
 
 #### 2. Camera Calibration: Practical Approach
 
@@ -199,7 +196,7 @@ Corners detected in images, and reprojection errors:
 
 ### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): 
 
-#### **Learnings from Project 4**:
+#### **Implementation and Learnings from Project 4**:
 
 The fourth project in my perception course involved addressing four sub-tasks, each contributing to the overall goal of stereo vision:
 
