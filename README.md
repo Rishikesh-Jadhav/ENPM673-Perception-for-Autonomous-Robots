@@ -194,17 +194,17 @@ Corners detected in images, and reprojection errors:
 
 - Reprojection errors: [0.1198, 0.2610, 0.4094, 0.5418, 0.2219, 0.3537, 0.0520, 0.2247, 0.4810, 0.4042, 0.4810, 0.5137, 0.4297]
 - Intrinsic Matrix K:
-[2.2317e + 03, 0, 7.7812e + 02;
+"2.2317e + 03, 0, 7.7812e + 02;
 0, 2.4542e + 03, 1.3235e + 03;
 0, 0, 1.0000]
 
-#### 3. Problems Encountered and Solutions
+“` | 1 2 3 | | 4 5 6 | | 7 8 9 | “`
 
-Several challenges were faced:
+#### 3. Problems Encountered 
 
-1. Determining correct K matrix in the first question.
+1. Determining correct K matrix in the mathematical approach.
 2. Handling very low values in the K matrix.
-3. Overall, the second question was straightforward.
+
 
 
 ### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): 
