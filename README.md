@@ -28,9 +28,7 @@ The course structure is enriched with four distinct projects, each described bel
 ## 📄 Project List
 - Click [here](https://github.com/Rishikesh-Jadhav/VelocityEstimation-OpticalFlow) access ENPM-673 Final Project .
 
-### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Project1.pdf): Ball Tracking and Covariance Matrix, LS, TLS, and RANSAC implementaions for 3D Point Cloud
-
-#### **[Project 1 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf)** 
+### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf): Ball Tracking and Covariance Matrix, LS, TLS, and RANSAC implementaions for 3D Point Cloud
 
 #### **Implementation and Learnings from Project 1**:
 
@@ -92,9 +90,7 @@ Number of iterations calculated using a formula involving probability values.
 5. Complexity of RANSAC algorithm required referencing multiple examples and increasing iterations to reduce fluctuations.   
 
   
-### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2): Camera Pose Estimation and Image Stitching
-
-#### **[Project 2 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project2/rjadhav1_proj2.pdf)** 
+### [Project 2](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project2/rjadhav1_proj2.pdf): Camera Pose Estimation and Image Stitching
 
 #### **Implementaion and Learnings from Project 2**:
 
@@ -150,18 +146,14 @@ Several challenges were faced during the project:
 3. Tricky aspects in finding camera rotation and translation.
 4. Challenges in stitching due to dimension mismatches and homography application.   
     
-### [Project 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  
+### [Project 3](#):  
 
-- **Learnings from Project 3**:
-
-#### **[Project 3 Report](#)**    
+- **Learnings from Project 3**:   
 
 
-### [Project 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): 
+### [Project 4](#): 
 
 - **Learnings from Project 4**:
-
-#### **[Project 4 Report](#)**    
 
   
 ## Additional Resources
