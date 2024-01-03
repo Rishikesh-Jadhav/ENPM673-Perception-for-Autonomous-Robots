@@ -108,7 +108,7 @@ Utilized the least squares method to find the best-fit curve (parabola) by minim
      4. Challenges in stitching due to dimension mismatches and homography application.
 
   
-### [Project 3](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project3/rjadhav1_proj3.pdf): Camera calibration  
+### [Project 3](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project3/rjadhav1_proj3.pdf): Camera Calibration  
 
 #### **Implementation and Learnings from Project 3**:  
 
@@ -127,37 +127,36 @@ Utilized the least squares method to find the best-fit curve (parabola) by minim
       2. Mathematical formulation involves decomposing the P matrix and finding intrinsic matrix K, rotation matrix R, and translation vector T.
       3. Intrinsic Matrix K:
       
+         ```plaintext
          [-6.7912331e + 01, -7.9392768e − 02, 3.3562042e + 01;
-      
-         0, 6.7619034e + 01, 2.5845427e + 01;
-      
-         0, 0, 4.1946620e − 02]
+          0, 6.7619034e + 01, 2.5845427e + 01;
+          0, 0, 4.1946620e − 02]
+         ```
       
       5. Projection matrix P:
          
+         ```plaintext
          [28.7364445 -1.75735415 -70.0687538 756.890519;
-      
-         -20.1369011 65.889012 -22.2140404 213.263797;
-      
-         -0.0277042391 -0.00259559759 -0.0313888009 1.00000000]
+          -20.1369011 65.889012 -22.2140404 213.263797;
+          -0.0277042391 -0.00259559759 -0.0313888009 1.00000000]
+         ```
          
       7. Rotation matrix R.
       
+         ```plaintext
          [-0.74948643 0.11452983 -0.65203758;
-      
-         0.0453559 0.99149078 0.12202001;
-      
-         0.66046418 0.06187859 -0.74830349]
+          0.0453559 0.99149078 0.12202001;
+          0.66046418 0.06187859 -0.74830349]
+         ```
          
       9. Translation vector T:
       
+         ```plaintext
          [0.64862355;
-      
           0.30183152;
-      
           0.69751919;
-      
           0.04064735]
+         ```
          
       11. Reprojection errors: [0.2856, 0.9726, 1.0361, 0.4541, 0.1909, 0.3190, 0.1959, 0.3083]
 
@@ -194,11 +193,11 @@ Utilized the least squares method to find the best-fit curve (parabola) by minim
 2. Handling very low values in the K matrix.
 
 
-### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): 
+### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): Stereo Vision and Depth Perception
 
 #### **Implementation and Learnings from Project 4**:
 
-The fourth project in my perception course involved addressing four sub-tasks, each contributing to the overall goal of stereo vision:
+   - The fourth project in my perception course involved addressing four sub-tasks, each contributing to the overall goal of stereo vision:
 
 1. **Calibration Pipeline :**
    - Utilized ORB feature extraction to find matching features in stereo images.
@@ -246,7 +245,6 @@ The pipelines were applied to three datasets, yielding specific outcomes for eac
 3. **Correspondence Challenges :**
    - Issues arising from problems in the previous processes.
    - Formulaic challenges in implementing correspondence.
-
   
 ## Additional Resources
 - [Course related resources](https://academiccatalog.umd.edu/graduate/courses/enpm/)
