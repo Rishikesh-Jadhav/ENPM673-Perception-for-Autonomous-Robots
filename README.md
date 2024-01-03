@@ -121,7 +121,7 @@ Utilized the least squares method to find the best-fit curve (parabola) by minim
      4. Extract the Rotation Matrix and Translation vector from the P matrix.
      5. Find Reprojection error for each point.
 
-   -**Results:**
+   - **Results:**
 
       1. Minimum number of matching points needed is 6 for mathematical calibration.
       2. Mathematical formulation involves decomposing the P matrix and finding intrinsic matrix K, rotation matrix R, and translation vector T.
@@ -161,32 +161,32 @@ Utilized the least squares method to find the best-fit curve (parabola) by minim
          
       11. Reprojection errors: [0.2856, 0.9726, 1.0361, 0.4541, 0.1909, 0.3190, 0.1959, 0.3083]
 
-#### 2. Camera Calibration: Practical Approach
 
-The objective is to calibrate the camera using real-world images.
+2. **Camera Calibration: Practical Approach**
 
-##### 2.1 Pipeline
+   - The objective is to calibrate the camera using real-world images.
 
-1. Read calibration images.
-2. Grayscale and resize images.
-3. Find corners using `cv2.findChessboardCorners()`.
-4. Draw corners on images.
-5. Calibrate using `cv2.calibrateCamera()` to obtain intrinsic parameters.
-6. Compute reprojection error for each image.
-7. Extract the camera matrix.
+   - **Pipeline:**
+     1. Read calibration images.
+     2. Grayscale and resize images.
+     3. Find corners using `cv2.findChessboardCorners()`.
+     4. Draw corners on images.
+     5. Calibrate using `cv2.calibrateCamera()` to obtain intrinsic parameters.
+     6. Compute reprojection error for each image.
+     7. Extract the camera matrix.
 
-##### 2.2 Results
+   - **Results:**
 
-Corners detected in images, and reprojection errors:
+      - Corners detected in images, and reprojection errors:
 
-- Reprojection errors: [0.1198, 0.2610, 0.4094, 0.5418, 0.2219, 0.3537, 0.0520, 0.2247, 0.4810, 0.4042, 0.4810, 0.5137, 0.4297]
-- Intrinsic Matrix K:
+        - Reprojection errors: [0.1198, 0.2610, 0.4094, 0.5418, 0.2219, 0.3537, 0.0520, 0.2247, 0.4810, 0.4042, 0.4810, 0.5137, 0.4297]
+        - Intrinsic Matrix K:
 
-[2.2317e + 03, 0, 7.7812e + 02;
-
-0, 2.4542e + 03, 1.3235e + 03;
-
-0, 0, 1.0000]
+          ```plaintext
+          [2.2317e + 03, 0, 7.7812e + 02;
+           0, 2.4542e + 03, 1.3235e + 03;
+           0, 0, 1.0000]
+          ```
 
 #### 3. Problems Encountered 
 
