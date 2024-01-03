@@ -28,7 +28,7 @@ The course structure is enriched with four distinct projects, each described bel
 ## 📄 Project List
 - Click [here](https://github.com/Rishikesh-Jadhav/VelocityEstimation-OpticalFlow) access ENPM-673 Final Project .
 
-### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Project1.pdf): Rendering with Pytorch3D
+### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Project1.pdf): Ball Tracking and Covariance Matrix, LS, TLS, and RANSAC implementaions for 3D Point Cloud
 
 - **Implementation and Learnings from Project 1**:
 
@@ -90,20 +90,74 @@ Number of iterations calculated using a formula involving probability values.
 5. Complexity of RANSAC algorithm required referencing multiple examples and increasing iterations to reduce fluctuations.
 
 - **[Project 1 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf)**    
-  
-### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
-- **Learnings from Project 2**:
-- **[Project 2 Report](#)**    
+  
+### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2): Camera Pose Estimation and Image Stitching
+
+- **Implementaion and Learnings from Project 2**:
+
+#### 1. Camera Pose Estimation using Homography
+
+In this task, camera pose estimation was performed using homography on a video, involving the following steps:
+
+##### 1.1 Image Processing Pipeline
+
+1. Read video frame by frame.
+2. Grayscale the image.
+3. Blur the image.
+4. Apply Thresholding to extract white color.
+5. Perform Canny edge detection.
+6. Use Hough transform algorithm on the frame.
+7. Find peaks in the Hough space.
+8. Draw lines corresponding to the Hough peaks.
+9. Find the intersections between the detected lines.
+10. Compute the homography matrix between the camera and the ground plane.
+11. Decompose the homography matrix to obtain rotation and translation.
+
+##### 1.2 Explanation and Results
+
+The homography equation is used to describe the transformation between two images taken from different viewpoints. Steps involve Hough transformation for corner detection, homography computation, and homography decomposition.
+
+#### 2. Image Stitching for Panoramic View
+
+This task focused on stitching four images together to create a panoramic view:
+
+##### 2.1 Pipeline
+
+1. Load the four input images.
+2. Convert images to grayscale.
+3. Extract features using ORB or SIFT.
+4. Match features using Brute-Force Matcher.
+5. Visualize matched features.
+6. Compute homographies between pairs of images.
+7. Combine images using computed homographies.
+8. Warp second image onto the first using OpenCV.
+9. Repeat for the next pair until all four images are stitched.
+10. Save the final panoramic image.
+
+##### 2.2 Explanation and Results
+
+The process involves feature extraction, feature matching, homography computation, and image blending. Homography is computed using RANSAC, and stitching involves warping and blending images.
+
+#### 3. Problems Encountered and Solutions
+
+Several challenges were faced during the project:
+
+1. Determining Canny edge detection values.
+2. Difficulty in detecting edges without using built-in functions.
+3. Tricky aspects in finding camera rotation and translation.
+4. Challenges in stitching due to dimension mismatches and homography application.
+
+- **[Project 2 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project2/rjadhav1_proj2.pdf)**    
  
     
-### [Project 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  Volume Rendering and Neural Radiance Fields
+### [Project 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  
 
 - **Learnings from Project 3**:
 - **[Project 3 Report](#)**    
 
 
-### [Project 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): Point Cloud Classification and Segmentation
+### [Project 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): 
 
 - **Learnings from Project 4**:
 - **[Project 4 Report](#)**    
