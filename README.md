@@ -174,12 +174,19 @@ Camera calibration corrects distortions and imperfections, providing accurate im
 
    0, 0, 4.1946620e − 02]
 
-5. Projection matrix P and Rotation matrix R.
-6. Translation vector T: [0.64862355;
+5. Projection matrix P:  ```markdown
+   [
+   28.7364445 -1.75735415 -70.0687538 756.890519;
+   -20.1369011 65.889012 -22.2140404 213.263797;
+   -0.0277042391 -0.00259559759 -0.0313888009 1.00000000
+   ]
+   
+7. and Rotation matrix R.
+8. Translation vector T: [0.64862355;
  0.30183152;
  0.69751919;
  0.04064735]
-7. Reprojection errors: [0.2856, 0.9726, 1.0361, 0.4541, 0.1909, 0.3190, 0.1959, 0.3083]
+9. Reprojection errors: [0.2856, 0.9726, 1.0361, 0.4541, 0.1909, 0.3190, 0.1959, 0.3083]
 
 #### 2. Camera Calibration: Practical Approach
 
