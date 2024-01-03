@@ -89,7 +89,7 @@ Number of iterations calculated using a formula involving probability values.
 4. Error during RANSAC due to probability values resulting in a denominator of zero.
 5. Complexity of RANSAC algorithm required referencing multiple examples and increasing iterations to reduce fluctuations.
 
-- **[Project 1 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf)**    
+#### **[Project 1 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf)**    
 
   
 ### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2): Camera Pose Estimation and Image Stitching
@@ -148,19 +148,21 @@ Several challenges were faced during the project:
 3. Tricky aspects in finding camera rotation and translation.
 4. Challenges in stitching due to dimension mismatches and homography application.
 
-- **[Project 2 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project2/rjadhav1_proj2.pdf)**    
+#### **[Project 2 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project2/rjadhav1_proj2.pdf)**    
  
     
 ### [Project 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  
 
 - **Learnings from Project 3**:
-- **[Project 3 Report](#)**    
+
+#### **[Project 3 Report](#)**    
 
 
 ### [Project 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): 
 
 - **Learnings from Project 4**:
-- **[Project 4 Report](#)**    
+
+#### **[Project 4 Report](#)**    
 
   
 ## Additional Resources
