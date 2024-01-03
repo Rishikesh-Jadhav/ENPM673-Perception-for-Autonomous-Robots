@@ -146,12 +146,12 @@ Several challenges were faced during the project:
 3. Tricky aspects in finding camera rotation and translation.
 4. Challenges in stitching due to dimension mismatches and homography application.   
     
-### [Project 3](#):  
+### [Project 3](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project3/rjadhav1_proj3.pdf): Camera calibration  
 
 - **Learnings from Project 3**:   
 
 
-### [Project 4](#): 
+### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): 
 
 - **Learnings from Project 4**:
 
