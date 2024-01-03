@@ -178,7 +178,7 @@ Utilized the least squares method to find the best-fit curve (parabola) by minim
 
       - Corners detected in images, and reprojection errors:
 
-        - Reprojection errors: [0.1198, 0.2610, 0.4094, 0.5418, 0.2219, 0.3537, 0.0520, 0.2247, 0.4810, 0.4042, 0.4810, 0.5137, 0.4297]
+        - Reprojection errors: ```plaintext [0.1198, 0.2610, 0.4094, 0.5418, 0.2219, 0.3537, 0.0520, 0.2247, 0.4810, 0.4042, 0.4810, 0.5137, 0.4297] ```
         - Intrinsic Matrix K:
 
           ```plaintext
