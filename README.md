@@ -237,7 +237,59 @@ Corners detected in images, and reprojection errors:
 
 ### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): 
 
-- **Learnings from Project 4**:
+#### **Learnings from Project 4**:
+
+The fourth project in my perception course involved addressing four sub-tasks, each contributing to the overall goal of stereo vision:
+
+1. **Calibration Pipeline :**
+   - Utilized ORB feature extraction to find matching features in stereo images.
+   - Estimated the Fundamental matrix and Essential matrix, considering camera intrinsics.
+   - Decomposed Essential matrix into translation and rotation.
+
+2. **Rectification Pipeline :**
+   - Applied perspective transformation to rectify stereo images for easier comparison.
+   - Computed homography matrices to map original to rectified image coordinates.
+   - Visualized rectification effects through epipolar lines and feature points overlay.
+
+3. **Correspondence Pipeline :**
+   - Implemented a correspondence pipeline involving matching windows and disparity calculation.
+   - Generated grayscale and color heat maps for visualizing disparity.
+
+4. **Image Depth Computation Pipeline :**
+   - Calculated depth values from a disparity map, considering camera calibration parameters.
+   - Produced grayscale and color heat maps for depth visualization.
+
+#### 2. Results
+The pipelines were applied to three datasets, yielding specific outcomes for each room:
+
+- **Chess Room :**
+  - Fundamental matrix and Essential matrix estimation.
+  - Visual representation of matched features.
+
+- **Ladder Room :**
+  - Fundamental matrix and Essential matrix estimation.
+  - Visual representation of matched features.
+
+- **Art Room :**
+  - Fundamental matrix and Essential matrix estimation.
+  - Visual representation of matched features.
+
+#### 3. Problems Encountered and Solutions
+
+1. **Calibration Outliers :**
+   - Difficulty in removing outliers during camera calibration.
+   - Tricky estimation of the Fundamental matrix.
+
+2. **Rectification Issues :**
+   - Inability to achieve horizontal epipolar lines during rectification.
+   - Warping difficulties.
+
+3. **Correspondence Challenges :**
+   - Issues arising from problems in the previous processes.
+   - Formulaic challenges in implementing correspondence.
+
+4. **Interlinked Process :**
+   - Suboptimal solution due to interdependencies of the entire process.
 
   
 ## Additional Resources
