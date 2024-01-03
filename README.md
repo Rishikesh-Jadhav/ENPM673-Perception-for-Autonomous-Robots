@@ -30,7 +30,9 @@ The course structure is enriched with four distinct projects, each described bel
 
 ### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Project1.pdf): Ball Tracking and Covariance Matrix, LS, TLS, and RANSAC implementaions for 3D Point Cloud
 
-- **Implementation and Learnings from Project 1**:
+#### **[Project 1 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf)** 
+
+#### **Implementation and Learnings from Project 1**:
 
 #### 1. Ball Tracking
 
@@ -87,9 +89,7 @@ Number of iterations calculated using a formula involving probability values.
 2. Handling cases where the red channel was not filtered during ball tracking.
 3. Issues with eigen vector assignment in total least squares method.
 4. Error during RANSAC due to probability values resulting in a denominator of zero.
-5. Complexity of RANSAC algorithm required referencing multiple examples and increasing iterations to reduce fluctuations.
-
-#### **[Project 1 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf)**    
+5. Complexity of RANSAC algorithm required referencing multiple examples and increasing iterations to reduce fluctuations.   
 
   
 ### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2): Camera Pose Estimation and Image Stitching
