@@ -167,11 +167,12 @@ Camera calibration corrects distortions and imperfections, providing accurate im
 1. Minimum number of matching points needed is 6 for mathematical calibration.
 2. Mathematical formulation involves decomposing the P matrix and finding intrinsic matrix K, rotation matrix R, and translation vector T.
 3. Intrinsic Matrix K:
-[-6.7912331e + 01, -7.9392768e − 02, 3.3562042e + 01;
 
-0, 6.7619034e + 01, 2.5845427e + 01;
+   [-6.7912331e + 01, -7.9392768e − 02, 3.3562042e + 01;
 
-0, 0, 4.1946620e − 02]
+   0, 6.7619034e + 01, 2.5845427e + 01;
+
+   0, 0, 4.1946620e − 02]
 
 5. Projection matrix P and Rotation matrix R.
 6. Translation vector T:
