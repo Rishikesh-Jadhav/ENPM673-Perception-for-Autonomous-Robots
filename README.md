@@ -148,7 +148,63 @@ Several challenges were faced during the project:
     
 ### [Project 3](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project3/rjadhav1_proj3.pdf): Camera calibration  
 
-- **Learnings from Project 3**:   
+#### **Learnings from Project 3**:  
+
+#### 1. Camera Calibration: Mathematical Approach
+
+##### 1.1 Pipeline
+
+Camera calibration corrects distortions and imperfections, providing accurate images. The pipeline involves:
+
+1. Capture checkerboard images for calibration.
+2. Determine world coordinates of checkerboard corners and find corresponding image coordinates.
+3. Calculate camera parameters using the P matrix.
+4. Extract the Rotation Matrix and Translation vector from the P matrix.
+5. Find Reprojection error for each point.
+
+##### 1.2 Results
+
+1. Minimum number of matching points needed is 6 for mathematical calibration.
+2. Mathematical formulation involves decomposing the P matrix and finding intrinsic matrix K, rotation matrix R, and translation vector T.
+3. Intrinsic Matrix K:
+[-6.7912331e + 01, -7.9392768e − 02, 3.3562042e + 01;
+0, 6.7619034e + 01, 2.5845427e + 01;
+0, 0, 4.1946620e − 02]
+5. Projection matrix P and Rotation matrix R.
+6. Translation vector T:
+7. Reprojection errors: [0.2856, 0.9726, 1.0361, 0.4541, 0.1909, 0.3190, 0.1959, 0.3083]
+
+#### 2. Camera Calibration: Practical Approach
+
+The objective is to calibrate the camera using real-world images.
+
+##### 2.1 Pipeline
+
+1. Read calibration images.
+2. Grayscale and resize images.
+3. Find corners using `cv2.findChessboardCorners()`.
+4. Draw corners on images.
+5. Calibrate using `cv2.calibrateCamera()` to obtain intrinsic parameters.
+6. Compute reprojection error for each image.
+7. Extract the camera matrix.
+
+##### 2.2 Results
+
+Corners detected in images, and reprojection errors:
+
+- Reprojection errors: [0.1198, 0.2610, 0.4094, 0.5418, 0.2219, 0.3537, 0.0520, 0.2247, 0.4810, 0.4042, 0.4810, 0.5137, 0.4297]
+- Intrinsic Matrix K:
+[2.2317e + 03, 0, 7.7812e + 02;
+0, 2.4542e + 03, 1.3235e + 03;
+0, 0, 1.0000]
+
+#### 3. Problems Encountered and Solutions
+
+Several challenges were faced:
+
+1. Determining correct K matrix in the first question.
+2. Handling very low values in the K matrix.
+3. Overall, the second question was straightforward.
 
 
 ### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): 
