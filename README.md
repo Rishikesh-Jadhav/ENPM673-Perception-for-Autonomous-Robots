@@ -288,9 +288,6 @@ The pipelines were applied to three datasets, yielding specific outcomes for eac
    - Issues arising from problems in the previous processes.
    - Formulaic challenges in implementing correspondence.
 
-4. **Interlinked Process :**
-   - Suboptimal solution due to interdependencies of the entire process.
-
   
 ## Additional Resources
 - [Course related resources](https://academiccatalog.umd.edu/graduate/courses/enpm/)
