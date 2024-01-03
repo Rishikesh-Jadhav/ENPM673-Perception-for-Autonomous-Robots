@@ -34,7 +34,7 @@ The course structure is enriched with four distinct projects, each described bel
 
 #### 1. Ball Tracking
 
-Implemented ball tracking using OpenCV to follow the trajectory of a red ball thrown against a wall.
+Implemented ball tracking to follow the trajectory of a red ball thrown against a wall.
 
 ##### Steps:
 
@@ -44,13 +44,9 @@ Implemented ball tracking using OpenCV to follow the trajectory of a red ball th
 4. Pixel coordinates of the ball's center calculated by finding the mean of x and y coordinates.
 5. Best-fit curve determined using the least squares method for pixel coordinates.
 
-###### 1.1 Least Squares Method
+##### 1.1 Least Squares Method
 
 Utilized the least squares method to find the best-fit curve (parabola) by minimizing mean square error.
-
-Equation of the curve: y = -0.000599089x^2 + 0.777464315x - 4.955751932
-
-Landing spot x-coordinate calculated by solving the quadratic equation with given parameters.
 
 #### 2. Covariance Matrix, LS, TLS, and RANSAC for 3D Point Cloud
 
@@ -74,7 +70,7 @@ Implemented RANSAC for robust surface fitting, handling outliers in the data.
 
 Number of iterations calculated using a formula involving probability values.
 
-###### Observations and Interpretation of Results
+##### Observations and Interpretation of Results
 
 - Total least squares method outperformed least squares method, especially in noisy data.
 - RANSAC demonstrated superior accuracy in generating models, especially with outlier rejection.
@@ -93,7 +89,7 @@ Number of iterations calculated using a formula involving probability values.
 4. Error during RANSAC due to probability values resulting in a denominator of zero.
 5. Complexity of RANSAC algorithm required referencing multiple examples and increasing iterations to reduce fluctuations.
 
-- **[Project 1 Report](#)**    
+- **[Project 1 Report](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf)**    
   
 ### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
