@@ -196,7 +196,7 @@ Utilized the least squares method to find the best-fit curve (parabola) by minim
 2. Handling very low values in the K matrix.
 
 
-### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): Stereo Vision and Depth Perception
+### [Project 4](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project4/rjadhav1_proj4.pdf): Pipeline for Stereo Vision and Depth Perception
 
 #### **Implementation and Learnings from Project 4**:
 
