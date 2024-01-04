@@ -27,11 +27,11 @@ The course structure includes four distinct projects, each outlined below.
 ## 📄 Project List
 - Click [here](https://github.com/Rishikesh-Jadhav/VelocityEstimation-OpticalFlow) access ENPM-673 Final Project .
 
-### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf): Ball Tracking and Covariance Matrix, LS, TLS, and RANSAC implementaions for 3D Point Cloud
+### [Project 1](https://github.com/Rishikesh-Jadhav/ENPM673-Perception-for-Autonomous-Robots/blob/main/project1/Report.pdf): Object Tracking and Covariance Matrix, LS, TLS, and RANSAC implementaions for 3D Point Cloud
 
 #### **Implementation and Learnings from Project 1**:
 
-1. **Ball Tracking** : Implemented ball tracking to follow the trajectory of a red ball thrown against a wall
+1. **Object Tracking** : Implemented ball tracking to follow the trajectory of a red ball thrown against a wall
    - Video captured using `cv2.VideoCapture`, and frames processed in a loop.
    - Color channels converted from BGR to HSV using `cv2.cvtColor`.
    - Red color channel isolated using `cv2.inRange` with specified upper and lower thresholds.
