@@ -31,28 +31,34 @@ The course structure includes four distinct projects, each outlined below.
 
 #### **Implementation and Learnings from Project 1**:
 
-1. **Object Tracking** : Implemented ball tracking to follow the trajectory of a red ball thrown against a wall
+1. **Object Tracking**:
+   - Implemented ball tracking to follow the trajectory of a red ball thrown against a wall.
    - Video captured using `cv2.VideoCapture`, and frames processed in a loop.
    - Color channels converted from BGR to HSV using `cv2.cvtColor`.
    - Red color channel isolated using `cv2.inRange` with specified upper and lower thresholds.
    - Pixel coordinates of the ball's center calculated by finding the mean of x and y coordinates.
    - Best-fit curve determined using the least squares method for pixel coordinates.
-
    - **Least Squares Method:** Utilized the least squares method to find the best-fit curve (parabola) by minimizing mean square error.
+   - #### Ball tracking
+     <img src="images/ball%20rgb.png" alt="Kmeans Clustering" width="20%"/>
+   - #### Best Fit curve to predict trajectory in pixel coordinates
+     <img src="images/ball_tracking.png" alt="Kmeans Clustering" width="20%"/>
 
-Utilized the least squares method to find the best-fit curve (parabola) by minimizing mean square error.
-
-2. **Covariance Matrix, LS, TLS, and RANSAC for 3D Point Cloud** : Explored methods for fitting surfaces to 3D point cloud data.
-
+2. **Covariance Matrix, LS, TLS, and RANSAC for 3D Point Cloud**:
+   - Explored methods for fitting surfaces to 3D point cloud data.
    - **Covariance Matrix and Surface Normal:** Calculated covariance matrix and determined surface normal's direction and magnitude using eigenvalues and eigenvectors.
    - **Standard Least Squares Method for 3D Point Cloud:** Applied standard least squares method to find the best-fit surface plane.
+     - #### Standard Least squares fit
+       <img src="images/standard_ls.png" alt="Kmeans Clustering" width="20%"/>
    - **Total Least Squares Method for 3D Point Cloud:** Used total least squares method to find the best-fit plane by minimizing error orthogonal to the plane.
+     - #### Total Least Squares fit
+       <img src="images/total_ls.png" alt="Kmeans Clustering" width="20%"/>
    - **RANSAC Method:** Implemented RANSAC for robust surface fitting, handling outliers in the data.
-
+     - #### RANSAC fit
+       <img src="images/ransac.png" alt="Kmeans Clustering" width="20%"/>
    - **Observations and Interpretation of Results:**
      - Total least squares method outperformed least squares method, especially in noisy data.
      - RANSAC demonstrated superior accuracy in generating models, especially with outlier rejection.
-
    - **Problems Encountered:**
      1. Challenges in determining threshold limits for ball tracking.
      2. Issues with eigen vector assignment in the total least squares method.
