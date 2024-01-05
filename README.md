@@ -188,6 +188,9 @@ The course structure includes four distinct projects, each outlined below.
 
    - **Results:**
 
+      - #### Corners Detected
+      <img src="images/corner_detection_calib.png" alt="Kmeans Clustering" width="45%"/>
+      
       - Corners detected in images, and reprojection errors:
 
         - Reprojection errors:
@@ -237,15 +240,21 @@ The pipelines were applied to three datasets, yielding specific outcomes for eac
 - **Chess Room :**
   - Fundamental matrix and Essential matrix estimation.
   - Visual representation of matched features.
-
+      - #### Chess Room Matches
+      <img src="images/chess_matches.png" alt="Kmeans Clustering" width="45%"/>
 - **Ladder Room :**
   - Fundamental matrix and Essential matrix estimation.
   - Visual representation of matched features.
-
+      - #### Ladder Room Matches
+      <img src="images/ladder_matches.png" alt="Kmeans Clustering" width="45%"/>
 - **Art Room :**
   - Fundamental matrix and Essential matrix estimation.
   - Visual representation of matched features.
-
+      - #### Art Room Matches
+      <img src="images/artroom_matches.png" alt="Kmeans Clustering" width="45%"/>
+      - #### Art Room Depth map
+      <img src="images/art_room_depth.png" alt="Kmeans Clustering" width="45%"/>
+      
 #### 3. Problems Encountered and Solutions
 
 1. **Calibration Outliers :**
