@@ -31,8 +31,7 @@ The course structure includes four distinct projects, each outlined below.
 
 #### **Implementation and Learnings from Project 1**:
 
-1. **Object Tracking**:
-   - Implemented ball tracking to follow the trajectory of a red ball thrown against a wall.
+1. **Object Tracking**: Implemented ball tracking to follow the trajectory of a red ball thrown against a wall.
    - Video captured using `cv2.VideoCapture`, and frames processed in a loop.
    - Color channels converted from BGR to HSV using `cv2.cvtColor`.
    - Red color channel isolated using `cv2.inRange` with specified upper and lower thresholds.
@@ -44,8 +43,7 @@ The course structure includes four distinct projects, each outlined below.
    - #### Best Fit curve to predict trajectory in pixel coordinates
      <img src="images/ball_tracking.png" alt="Kmeans Clustering" width="30%"/>
 
-2. **Covariance Matrix, LS, TLS, and RANSAC for 3D Point Cloud**:
-   - Explored methods for fitting surfaces to 3D point cloud data.
+2. **Covariance Matrix, LS, TLS, and RANSAC for 3D Point Cloud**: Explored methods for fitting surfaces to 3D point cloud data.
    - **Covariance Matrix and Surface Normal:** Calculated covariance matrix and determined surface normal's direction and magnitude using eigenvalues and eigenvectors.
    - **Standard Least Squares Method for 3D Point Cloud:** Applied standard least squares method to find the best-fit surface plane.
      - #### Standard Least squares fit
