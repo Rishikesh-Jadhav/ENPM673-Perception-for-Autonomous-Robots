@@ -90,7 +90,7 @@ The course structure includes four distinct projects, each outlined below.
      - #### Rotation
        <img src="images/rotation.png" alt="Kmeans Clustering" width="35%"/>
      - #### Translation
-       <img src="images/trasnlation.png" alt="Kmeans Clustering" width="35%"/>
+       <img src="images/translation.png" alt="Kmeans Clustering" width="35%"/>
        
 2. **Image Stitching for Panoramic View**
    - This task focused on stitching four images together to create a panoramic view:
