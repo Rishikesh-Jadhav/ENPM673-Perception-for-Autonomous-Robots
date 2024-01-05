@@ -252,6 +252,7 @@ The pipelines were applied to three datasets, yielding specific outcomes for eac
   - Visual representation of matched features.
       - #### Art Room Matches
       <img src="images/artroom_matches.png" alt="Kmeans Clustering" width="45%"/>
+     
       - #### Art Room Depth map
       <img src="images/art_room_depth.png" alt="Kmeans Clustering" width="45%"/>
       
