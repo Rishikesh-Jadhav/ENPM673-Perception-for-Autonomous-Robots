@@ -112,7 +112,7 @@ The course structure includes four distinct projects, each outlined below.
      - #### Feature Matching and Images stiitching
        <img src="images/feature_matching.png" alt="Kmeans Clustering" width="95%"/>
        
-    - **Problems Encountered and Solutions:**
+    - **Problems Encountered:**
      1. Determining Canny edge detection values.
      2. Difficulty in detecting edges without using built-in functions.
      3. Tricky aspects in finding camera rotation and translation.
@@ -256,7 +256,7 @@ The pipelines were applied to three datasets, yielding specific outcomes for eac
       - #### Art Room Depth map
       <img src="images/art_room_depth.png" alt="Kmeans Clustering" width="45%"/>
       
-#### 3. Problems Encountered and Solutions
+#### 3. Problems Encountered
 
 1. **Calibration Outliers :**
    - Difficulty in removing outliers during camera calibration.
