@@ -88,7 +88,7 @@ The course structure includes four distinct projects, each outlined below.
      - The homography equation is used to describe the transformation between two images taken from different viewpoints. Steps involve Hough transformation for corner detection, homography computation, and homography decomposition.
    
      - #### Rotation
-       <img src="images/rotation.png.png" alt="Kmeans Clustering" width="35%"/>
+       <img src="images/rotation.png" alt="Kmeans Clustering" width="35%"/>
      - #### Translation
        <img src="images/trasnlation.png" alt="Kmeans Clustering" width="35%"/>
        
@@ -110,7 +110,7 @@ The course structure includes four distinct projects, each outlined below.
    - **Explanation and Results:**
      - The process involves feature extraction, feature matching, homography computation, and image blending. Homography is computed using RANSAC, and stitching involves warping and blending images.
      - #### Feature Matching and Images stiitching
-       <img src="images/feature_matching.png" alt="Kmeans Clustering" width="35%"/>
+       <img src="images/feature_matching.png" alt="Kmeans Clustering" width="95%"/>
        
     - **Problems Encountered and Solutions:**
      1. Determining Canny edge detection values.
